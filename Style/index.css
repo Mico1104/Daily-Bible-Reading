@@ -9,6 +9,9 @@
   height: 100vh;
   position: relative;
   /*background-image: linear-gradient(rgba(9, 111, 11, 0.8), rgba(9, 111, 11, 0.8)) url(Pictures/bacground.jpg);*/
+  background-image: url('/Pictures/bacground.jpg');
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +20,8 @@
 
 .container .heading{
   text-align: center;
+  margin-bottom: 50px;
+  
 }
 
 .form-box {
