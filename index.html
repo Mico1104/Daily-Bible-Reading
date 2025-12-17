@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Page</title>
-    <link rel="stylesheet" href="style/login-page.css">
+    <link rel="stylesheet" href="Style/index.css">
+  
 </head>
 <body>
-    
-    <h1 class="title">Daily Bible Ring</h1>
-    
-    <form action="#" method="POST">
-            <h1>Log in</h1>
-            <label for="username">
-            Username:
-            </label>
-            <input type="text"id="username" type="text" name="username" placeholder="Enter your username" autocomplete="on" required>
+  <div class="container">
+    <div class="form-box">
+      <h1 class="title">Sign up</h1>
+      
+      <form>
+        <div class="input-group">
+          <div class="input-field">
+            <input type="text" name="name" placeholder="Your Full Name"required>
+          </div>
+          
+          <div class="input-field">
+            <input type="number" name="phone-number" placeholder="Phone Number"required>
+          </div>
+          
+          <div class="input-field">
+            <input type="email" name="email" placeholder="Enter your email"required>
+          </div>
+          
+          <div class="input-field">
+            <input type="password" name="password" placeholder="Password"required>
+          </div>
         
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
-        
-        <input type="button" value="Log In">
-        <p>Don't have an account?</p>
-        <p><a href="">Create one</a></p>
-    </form>
+        </div>
+      </form>
+      
+    </div>
+  </div>
 </body>
 </html>
