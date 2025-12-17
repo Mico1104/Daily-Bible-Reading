@@ -1,6 +1,11 @@
-const signinBtn = document.getElementById('signinBtn');
-const signupBtn = document.getElementById('signupBtn');
-const title = document.querySelector('.title');
-const nameField = document.getElementById('nameField');
-const phonenumberField = document.getElementById('phone-numberField');
+let signinBtn = document.getElementById('signinBtn');
+let signupBtn = document.getElementById('signupBtn');
+let title = document.querySelector('.title');
+let nameField = document.getElementById('nameField');
+let phonenumberField = document.getElementById('phone-numberField');
 
+signinBtn.addEventListener('click', () => {
+  nameField.style.maxHeight = '0';
+  phone-numberField.style.maxHeight = '0';
+  title.innerHTML = 'Sign in';
+});
