@@ -20,7 +20,7 @@ signupBtn.addEventListener('click', () => {
   nameField.style.maxHeight = '65px';
   phonenumberField.style.maxHeight = '65px';
   title.innerHTML = 'Sign up';
-  title.style.marginBottom = '10px';
+  title.style.marginBottom = '30px';
   signupBtn.classList.remove('disable');
   signinBtn.classList.add('disable');
   inputGroup.classList.add('input-group');
