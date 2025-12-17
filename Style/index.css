@@ -21,3 +21,15 @@
   background-color: #fff;
   padding: 50px 60px 70px;
 }
+
+.form-box h1{
+  font-size: 300x;
+  margin-bottom: 60px;
+  color: #096f0b;
+}
+
+.input-field {
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 3px;
+}
