@@ -35,6 +35,7 @@
 
 .form-box h1{
   font-size: 30px;
+  margin-bottom: 30px;
   color: #096f0b;
   overflow: hidden;
   transition-property: margin-bottom;
