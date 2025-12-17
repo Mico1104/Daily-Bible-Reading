@@ -27,6 +27,7 @@
   background-color: #fff;
   padding: 50px 60px 70px;
   box-shadow: 1px 1px 5px #a99e9e80;
+  border-radius: 10px;
 }
 
 .form-box h1{
@@ -51,4 +52,30 @@ input {
   padding: 18px 15px;
 }
 
+.btn-field {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
+.btn-field button {
+  flex-basis: 48%;
+  background: #096f0b;
+  color: #fff;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.input-group {
+  height: 290px;
+}
+
+.btn-field button.disable{
+  background: #eaeaea;
+  color: #555;
+}
