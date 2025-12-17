@@ -21,7 +21,6 @@
 .container .heading{
   text-align: center;
   margin-bottom: 50px;
-  
 }
 
 .form-box {
@@ -35,9 +34,12 @@
 }
 
 .form-box h1{
-  font-size: 300x;
-  margin-bottom: 30px;
+  font-size: 30px;
   color: #096f0b;
+  overflow: hidden;
+  transition-property: margin-bottom;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
 }
 
 .input-field {
@@ -83,7 +85,6 @@ input {
 
 .input-group {
   height: 250px;
-
 }
 
 button[type="submit"] {
